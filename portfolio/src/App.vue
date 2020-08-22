@@ -34,7 +34,7 @@
           </b-card>
         </b-col>
         
-        <b-col cols="8">
+        <b-col cols="12">
           <b-card title="" sub-title="">
           <b-card-text>
           <p class="text-left">   
@@ -53,7 +53,7 @@
           <b-link href="#" class="card-link"></b-link>
           </b-card>
         </b-col>
-        <b-col cols="8">
+        <b-col cols="12">
           <b-card title="" sub-title="">
           <b-card-text>
           <p class="text-left">   
@@ -69,13 +69,13 @@
           <b-link href="#" class="card-link"></b-link>
           </b-card>
         </b-col>
-        <b-col cols="8">
+        <b-col cols="12">
           <b-card title="" sub-title="">
           <b-card-text>
           <p class="text-left">   
             <p class="text-left">Project 3.
             <p class="text-left">Front-End Design, CSS, and front-end components.</p> 
-            <b-link href="http://www.goatvoter.org">RuneSkype|http://www.goatvoter.org/</b-link> 
+            <b-link href="http://www.goatvoter.org">G.O.A.T. Voter App|http://www.goatvoter.org/</b-link> 
             <p class="text-left">	The GOAT Voter App is a one-stop platform where voters can access information about candidates running for political offices anywhere in the United States. The GOAT Voter App streamlines information and increases voter participation.
             By entering their zip code in a search field, users will be able to search and access detailed information about all candidates running for election in their district. In addition, users can enter their address to find out where their nearest polling site is located and request            transportation on election day.
             <p class="text-left">Responsibilities:  Wrote clean, presentable code. Kept group on time and on track to present at Project Demo Day.
@@ -89,7 +89,121 @@
           <b-link href="#" class="card-link"></b-link>
           </b-card>
         </b-col>
+        <b-col cols="12">
+          <b-card title="" sub-title="">
+          <b-card-text>
+          <p class="text-left">   
+            <p class="text-left">Project 4.
+            <p class="text-left">Back-End Design, CSS, and front-end components.</p> 
+            <b-link href="https://sulai3030.github.io/test-BeerNearHere/">Beer Neer Here|https://sulai3030.github.io/test-BeerNearHere/</b-link> 
+            <p class="text-left">	Beer Near Here is an app that services beer drinkers in and around the New York and New Jersey areas using user generated information via questionnaire about beer preferences returning locations that serve craft beers.
+            <p class="text-left">Responsibilities:  Wrote clean, presentable code. Write backend and connect to FirebaseDB
+           </p>
+           <p class="text-left">
+            Technologies Used: HTML5, CSS, and JavaScript, Body-parser, Express, Bootstrap, CSS Parallax, GitHub Pages
+           </p>
+          </b-card-text>
+          <a href="#" class="card-link"></a>
+          <b-link href="#" class="card-link"></b-link>
+          </b-card>
+        </b-col>
        </b-row>  
+       <b-col cols="12">
+          <b-card title="" sub-title="">
+          <b-card-text>
+          <p class="text-left">   
+          <p>RELEVANT EXPERIENCE</p>
+          <hr>
+              <p class="text-left">Mayapple Center for the Arts and Humanities 	                                                                           New York, NY   
+              <p class="text-left">Webmaster</p> 
+              <b-link href="www.mayapple.org">Mayapple.org                               Jan 2019</b-link> 
+               
+              <p class="text-left">                                                                                                                       	        
+              Updated and maintained website (Drupal 7 platform), creating links between Mayapple’s homepage and their yearly summer program at Sarah Lawrence College. <p class="text-left">Added, removed, and refined content for Events, Faculty, Executive Staff, Executive Board, and Advisory Board pages.      	
+              <p class="text-left">Key Accomplishments:
+              Updated homepage to include crucial information about and links to Mayapple’s program at Sarah Lawrence College
+              ●	Removed departed Advisory Board members from Advisory Board page and added new Advisory Board Members
+              ●	Input new faculty on Faculty page and Executive Board listing and names.
+              ●	Communicated foundation’s message through updates on homepage about mission, events, enrollment opportunities and scholarships
+              </p>
+          </b-card-text>
+          <a href="#" class="card-link"></a>
+          <b-link href="#" class="card-link"></b-link>
+          </b-card>
+        </b-col>
+        <b-col cols="12">
+          <b-card title="" sub-title="">
+          <b-card-text>
+          <p class="text-left">   
+          <p></p>
+          <hr>
+              <p class="text-left">Regeneron, Inc.                                                                        	                                                                           New York, NY   
+              <p class="text-left">Technical Writer/ Content Management Writer/Editor,  Independent  Contractor                               </p> 
+              <b-link href="www.regeneron.com">Regeneron.com                               Jan 2019</b-link> 
+               
+              <p class="text-left">                                                                                                                       	        
+              <p class="text-left">      	
+              <p class="text-left">Key Accomplishments:
+              <p class="text-left">Created and edited complex technical documentation (Runbooks, cheat sheets, etc.) in plain language that allowed clear communication between technical and non-technical end-users in understanding standard operating procedure (SOP) of different departments (IT, Laboratories, etc.). 
+                <p class="text-left">Collaborated with Project Managers & Subject Matter Experts (SMEs) to develop and maintain site content (FTP, Networking, etc.) for divisions by conducting face-to-face and teleconference interviews with SMEs about the day-to-day operations of each division to accumulate Mission Critical data. Individually created User-facing documentation through SharePoint to implement a smooth continuation of company business if Mission Critical issues occurred. 
+              Key Accomplishments:
+              ●	Interviewed 8 SMEs (division heads and assistant managers) for each division to accumulate all necessary data
+              ●	Utilized SME-obtained data to create FTP, Network, and IT Runbook from project start to project finish
+              </p>
+           
+          </b-card-text>
+          <a href="#" class="card-link"></a>
+          <b-link href="#" class="card-link"></b-link>
+          </b-card>
+        </b-col>
+        <b-col cols="12">
+          <b-card title="" sub-title="">
+          <b-card-text>
+          <p class="text-left">   
+          <p></p>
+          <hr>
+              <p class="text-left">Spruce Technology                                                                       	                                                                           New York, NY   
+              <p class="text-left">Technical Writer, Independent  Contractor                               </p> 
+              <b-link href="www.spruce.com">Spruce.com                               Jan 2019</b-link> 
+               
+              <p class="text-left">                                                                                                                       	        
+              <p class="text-left">      	
+              <p class="text-left">Key Accomplishments:
+              <p class="text-left">Created and edited complex technical documentation (Runbooks, cheat sheets, etc.) in plain language that allowed clear communication between technical and non-technical end-users in understanding standard operating procedure (SOP) of different departments (IT, Laboratories, etc.). 
+                <p class="text-left">Wrote and edited complex technical information to present in a clear concise way as User Guides and Manuals to aid end-users such as architects, contractors, superintendents and the general public in understanding and using the online portal for the New York City’s Department of Buildings’ website (Microsoft Dynamics CRM platform). Transformed pre-existing design specifications, project plans, text plans, research and business correspondence into online templates for general public access.
+                Key Accomplishments:
+                ●	Converted thousands of pre-existing paper documents from the Department of Building’s inception in 1936 into easily-accessible and understandable online information                that is easily accessed and used by the general public
+                ●	Transformed paper documents required of NYC citizens, businesses, homeowners, architects, etc. seeking government permission to perform repairs, modifications,                 builds, scaffoldings, etc., into easily found usable online templates
+                ●	Created content for About, Tenant, Homeowner, Business, Industry, Safety, and Codes portals.
+                ●	Designed flowcharts in MS Visio for Instruction Manuals 
+              </p>
+          </b-card-text>
+          <a href="#" class="card-link"></a>
+          <b-link href="#" class="card-link"></b-link>
+          </b-card>
+        </b-col>
+        <b-col cols="12">
+          <b-card title="" sub-title="">
+          <b-card-text></b-card-text>
+          <p class="text-left">   
+          <p></p>
+          <hr>
+              <p class="text-left">Maximus                                                                                                             New York, NY   
+              <p class="text-left">Technical Writer, Independent  Contractor                               </p> 
+              <b-link href="www.maximus.com">Maximus.com </b-link>                              Jan 2019 
+              <p class="text-left">   </p>                                                                                                                    	             	
+              <p class="text-left"></p>
+              <p class="text-left">Translated communications from legal team in Albany from legalese and rewrote information into materials that could be easily understood by the general public. Performed quality assurance on New York Medicaid Choice website to safeguard against any new errors. Produced marketing material (e.g. physical newsletters, HTML newsletters, posters, pharmacy bag notes, flyers, leaflets, etc.) to inform the general public about crucial upcoming changes to their health plans. Coordinated and oversaw recording sessions of new health plan materials. Created and filed electronic check requisitions for multiple vendors on a weekly basis using Adobe. Copywrote internal and external communications materials to promote and support executive managers.</p>
+      
+              Key Accomplishments:
+              <b-list-group-item>Project managed professional recording sessions with Native speakers of multiple languages (6) of new plan material so hearing and developmentally-impaired citizens of New York State could access these plan changes in ADA-compliant ways</b-list-group-item>
+              <b-list-group-item>Performed quality assurance on a daily basis in a Drupal 7 environment for the New York Medicaid Choice website to ensure the site was fully-functional with no new errors after each edit or update was posted so that New York State citizens could successfully continue to access it for information or enrollment</b-list-group-item>	
+              <b-list-group-item>Translated communications from legal team in Albany about new health care coverage and requirements from legalese into clear concise and easily understandable materials that was distributed to the general public</b-list-group-item>
+          
+          <a href="#" class="card-link"></a>
+          <b-link href="#" class="card-link"></b-link>
+          </b-card>
+        </b-col>
   </div>
 </template>
 
