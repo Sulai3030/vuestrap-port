@@ -12,7 +12,7 @@
            <b-col>
             <b-card-text>
               <p class="justify">
-                <b-list-group-item><b-link href="#foo">About</b-link></b-list-group-item>
+                <b-list-group-item><b-link to="/" exact exact-active-class="active">About</b-link></b-list-group-item>
                 <b-list-group-item><b-link href="#foo">Experience</b-link></b-list-group-item>  
                 <b-list-group-item><b-link href="#foo">Education</b-link></b-list-group-item>  
                 <b-list-group-item><b-link href="#foo">Skils</b-link></b-list-group-item>  
@@ -198,12 +198,54 @@
               Key Accomplishments:
               <b-list-group-item>Project managed professional recording sessions with Native speakers of multiple languages (6) of new plan material so hearing and developmentally-impaired citizens of New York State could access these plan changes in ADA-compliant ways</b-list-group-item>
               <b-list-group-item>Performed quality assurance on a daily basis in a Drupal 7 environment for the New York Medicaid Choice website to ensure the site was fully-functional with no new errors after each edit or update was posted so that New York State citizens could successfully continue to access it for information or enrollment</b-list-group-item>	
-              <b-list-group-item>Translated communications from legal team in Albany about new health care coverage and requirements from legalese into clear concise and easily understandable materials that was distributed to the general public</b-list-group-item>
-          
           <a href="#" class="card-link"></a>
           <b-link href="#" class="card-link"></b-link>
           </b-card>
         </b-col>
+        <b-col cols="12">
+          <b-card title="" sub-title="">
+          <b-card-text></b-card-text>
+          <p class="text-left">   
+          <p></p>
+          <hr>
+              <p class="text-left">City of New York Campaign Finance Board                                                                                                             New York, NY   
+              <p class="text-left">Website Copywriter/Assistant to Director of Communications                                                                                                                           </p> 
+              <b-link href="https://www.nyccfb.info/">https://www.nyccfb.info/ </b-link>                              Jan 2019 
+              <p class="text-left">   </p>                                                                                                                    	             	
+              <p class="text-left"></p>
+              <p class="text-left">Key Accomplishments: Revamped website. Rewrote and proofread 30 + pages editorial copy in a Drupal-based CMS. Collaborated with the Communications Department staff to maintain and update public website prior to re-launch. Ensured coherency of portal’s copy.</p>
+          </b-card>
+        </b-col>
+        <b-col cols="12">
+          <b-card title="" sub-title="">
+          <b-card-text></b-card-text>
+          <p class="text-left">   
+          <p></p>
+          <hr>
+              <p class="text-left">The Princeton Review                                                                    New York, NY   
+              <p class="text-left">Website Copywriter/Assistant to Director of Communications                                                                                                                           </p> 
+              <b-link href="http://princetonreview.com">The Princeton Review.com</b-link>                            Jan 2019 
+              <p class="text-left">   </p>                                                                                                                             	
+              <p class="text-left"></p>
+              <p class="text-left">Proofread and rewrote (15-20) articles and promotional copy to adhere to SEO best practices which resulted in increased readership. Performed Quality Assurance on the company’s web pages to improve readability and page rank in Google searches: (FAQs: The Best 169 Law Schools: 2015 Edition”); (“Strategies to Succeed in Law School”) ;( “Strategies for Second–Time Applicants”)</p>
+          </b-card>
+          <b-col cols="12">
+          <b-card title="Education" sub-title="">
+          <b-card-text>
+          <p class="text-left">   
+          Full Stack Web Development Bootcamp: Columbia University, New York, NY                                                                                                        
+          <p class="text-left">An intensive 24-week long boot camp dedicated to designing and building web applications. Skills learned consisted of JavaScript3, CSS3,HTML5, jQuery, Bootstrap, Firebase, NodeJS, MySQL, MongoDB, Express, Handlebars & ReactJS.
+          <p class="text-left">Masters in Fine Arts in Creative Writing: The New School University, New York, NY                                                                                                                    
+          <p class="text-left">Certification in Publishing: Emerson College - Boston, MA
+          <p class="text-left">Bachelor of Arts in Philosophy:  Emory University - Atlanta, GA
+          </p> 
+          </b-card-text>
+          <a href="#" class="card-link"></a>
+          <b-link href="#" class="card-link"></b-link>
+          </b-card>
+        </b-col>
+        </b-col>
+
   </div>
 </template>
 
@@ -224,6 +266,23 @@ export default {
     
   }
 }
+const routes = [
+  {
+    path: '/some/route',
+    // We don't provide a name on this parent route, but rather
+    // set the name on the default child route instead
+    // name: 'some-route',
+    component: Experience,
+    // Child route "tabs"
+    children: [
+      // Note we provide the above parent route name on the default child tab
+      // route to ensure this tab is rendered by default when using named routes
+      { path: '', component: DefaultTabComponent, name: 'some-route' },
+      { path: 'foo', component: FooTabComponent },
+      { path: 'bar', component: BarTabComponent }
+    ]
+  }
+]
 </script>
 
 <style>
