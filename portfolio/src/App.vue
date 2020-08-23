@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="app">
       <b-jumbotron>
         <template v-slot:header>Sulai Sivadel</template>
         <template v-slot:lead>
@@ -15,7 +15,7 @@
                 <b-list-group-item><b-link to="/" exact exact-active-class="active">About</b-link></b-list-group-item>
                 <b-list-group-item><b-link href="#foo">Experience</b-link></b-list-group-item>  
                 <b-list-group-item><b-link href="#foo">Education</b-link></b-list-group-item>  
-                <b-list-group-item><b-link href="#foo">Skils</b-link></b-list-group-item>  
+                <b-list-group-item><b-link href="#foo">Skills</b-link></b-list-group-item>  
                 <b-list-group-item><b-link href="#foo">Interests</b-link></b-list-group-item> 
                 <b-list-group-item><b-link href="#foo">Blog</b-link></b-list-group-item>  
                 <b-list-group-item><b-link href="#foo">Contact</b-link></b-list-group-item>
@@ -266,23 +266,6 @@ export default {
     
   }
 }
-const routes = [
-  {
-    path: '/some/route',
-    // We don't provide a name on this parent route, but rather
-    // set the name on the default child route instead
-    // name: 'some-route',
-    component: Experience,
-    // Child route "tabs"
-    children: [
-      // Note we provide the above parent route name on the default child tab
-      // route to ensure this tab is rendered by default when using named routes
-      { path: '', component: DefaultTabComponent, name: 'some-route' },
-      { path: 'foo', component: FooTabComponent },
-      { path: 'bar', component: BarTabComponent }
-    ]
-  }
-]
 </script>
 
 <style>
