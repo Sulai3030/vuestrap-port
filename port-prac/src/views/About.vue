@@ -1,32 +1,40 @@
 <template>
   <div>
-    <b-card title="Card title" sub-title="Card subtitle"></b-card>
-    <b-card-text>
-      Ambitious, user-focused Web and Software Developer with experience working
-      in teams and independently. Has strong project management experience and
-      experience delegating responsibilities to a team from time at Maximus
-      where he spearheaded a project to create the audio/ADA compliant portion
-      of a new healthcare plan for 1.5 million citizens of New York State. A
-      flexible and quick learner committed to constantly learning and evolving
-      his skills to stay abreast of ever-evolving technologies and trends in the
-      industry. Communicative, knowledgeable and steadfast with excellent
-      computer engineering skills learned in the Columbia University Coding
-      Bootcamp where he created projects in HTML5, CSS, JavaScript, VueJS, and
-      ReactJS.
-    </b-card-text>
+  <b-card-group deck>
+    <b-card title="Title" img-src="https://picsum.photos/300/300/?image=41" img-alt="Image" img-top>
+      <b-card-text>
+        This is a wider card with supporting text below as a natural lead-in to additional content.
+        This content is a little bit longer.
+      </b-card-text>
+      <template v-slot:footer>
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </template>
+    </b-card>
 
-    <b-card-text>A second paragraph of text in the card.</b-card-text>
+    <b-card title="Title" img-src="https://picsum.photos/300/300/?image=41" img-alt="Image" img-top>
+      <b-card-text>
+        This card has supporting text below as a natural lead-in to additional content.
+      </b-card-text>
+      <template v-slot:footer>
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </template>
+    </b-card>
 
-    <a href="#" class="card-link">Card link</a>
-    <b-link href="#" class="card-link">Another link</b-link>
-
-  </div>
+    <b-card title="Title" img-src="https://picsum.photos/300/300/?image=41" img-alt="Image" img-top>
+      <b-card-text>
+        This is a wider card with supporting text below as a natural lead-in to additional content.
+        This card has even longer content than the first to show that equal height action.
+      </b-card-text>
+      <template v-slot:footer>
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </template>
+    </b-card>
+  </b-card-group>
+</div>
 </template>
 
 <script>
 export default {};
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>
