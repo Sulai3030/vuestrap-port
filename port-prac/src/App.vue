@@ -3,6 +3,7 @@
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About |</router-link>
+      <router-link to="/Applications"> Applications</router-link>
       <router-link to="/Experience"> Experience</router-link>
       <router-link to="/Skills"> Skills</router-link>
     </div>
@@ -30,5 +31,8 @@
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+#skills {
+  text-align: center;
 }
 </style>
