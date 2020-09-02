@@ -3,13 +3,20 @@
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About |</router-link>
-      <router-link to="/Applications"> Applications</router-link>
-      <router-link to="/Experience"> Experience</router-link>
+      <router-link to="/Applications"> Applications</router-link> |
+      <router-link to="/Experience"> Experience</router-link> |
       <router-link to="/Skills"> Skills</router-link>
     </div>
     <router-view />
   </div>
 </template>
+
+<script>
+import "core-js/stable";
+import "regenerator-runtime/runtime";
+import "intersection-observer"; // Optional
+
+</script>
 
 <style>
 #app {

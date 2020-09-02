@@ -38,8 +38,8 @@ const routes = [
     component: Skills
   },
   {
-    path: "applications",
-    name: "applications",
+    path: "/applications",
+    name: "Applications",
     component: Applications
   }
 ];
