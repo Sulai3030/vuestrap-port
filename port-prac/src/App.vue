@@ -6,15 +6,13 @@
       <router-link to="/Applications"> Applications</router-link> |
       <router-link to="/Experience"> Experience</router-link> |
       <router-link to="/Skills"> Skills</router-link>
+      <router-link to="/Blog"> Blog</router-link>
     </div>
     <router-view />
   </div>
 </template>
 
 <script>
-import "core-js/stable";
-import "regenerator-runtime/runtime";
-import "intersection-observer"; // Optional
 
 </script>
 

@@ -5,6 +5,8 @@ import Profile from "../views/Profile.vue";
 import Experience from "../views/Experience.vue";
 import Skills from "../views/Skills.vue";
 import Applications from "../views/Applications.vue";
+import Blog from "../views/Blog.vue";
+
 Vue.use(VueRouter);
 
 const routes = [
@@ -41,6 +43,11 @@ const routes = [
     path: "/applications",
     name: "Applications",
     component: Applications
+  },
+  {
+    path: "/blog",
+    name: "Blog",
+    component: Blog
   }
 ];
 
