@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
       <router-link to="/about">About |</router-link>
       <router-link to="/Applications"> Applications</router-link> |
       <router-link to="/Experience"> Experience</router-link> |
@@ -19,8 +18,11 @@
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
   color: #2c3e50;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 400px;
+  margin-left: 50px;
 }
 
 #nav {
@@ -37,7 +39,7 @@
   color: #42b983;
 }
 #skills {
-  text-align: center;
+  text-align: auto;
 }
 #b-card-text {
   text-align: left;
