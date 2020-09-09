@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="app">
     <b-card>
       <b-media>
         <template v-slot:aside>
