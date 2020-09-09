@@ -59,6 +59,8 @@
               </p>
               <p>
                 Key Accomplishments:
+              </p>
+              <ul>
                 <li>
                   Updated homepage to include crucial information about and
                   links to Mayapple’s program at Sarah Lawrence College
@@ -76,7 +78,7 @@
                   about mission, events, enrollment opportunities and
                   scholarships
                 </li>
-              </p>
+              </ul>
 
               <p>
                 Responsibilities: Follow design specs handed down from site
@@ -122,6 +124,8 @@
               </p>
               <p>
                 Key Accomplishments:
+              </p>
+              <ul>
                 <li>
                   Interviewed 8 SMEs (division heads and assistant managers) for
                   each division to accumulate all necessary data
@@ -131,7 +135,7 @@
                   Runbook from project start to project finish
                 </li>
                 <li></li>
-              </p>
+              </ul>
 
               <p class="text-center"></p>
               <hr />
