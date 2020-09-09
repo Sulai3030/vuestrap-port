@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/about">About |</router-link>
+      <router-link to="/">Home</router-link>
       <router-link to="/Applications"> Applications</router-link> |
       <router-link to="/Experience"> Experience</router-link> |
       <router-link to="/Skills"> Skills</router-link>
@@ -42,7 +42,7 @@
   text-align: auto;
 }
 #b-card-text {
-  text-align: left;
+  text-align: center;
   align-content: center;
 }
 </style>
