@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <b-container class="bv-example-row bv-example-row-flex-cols">
+  <div id="app">
+    <b-container>
       <b-row align-v="center">
         <b-col align-self="center">
           <b-card-group>
@@ -31,17 +31,9 @@
   </div>
 </template>
 
-<script>
-export default {};
-</script>
-
-<style lang="scss" scoped></style>
+<style></style>
 
 <script>
 // @ is an alias to /src
-
-export default {
-  name: "Home",
-  components: {}
-};
+export default {};
 </script>

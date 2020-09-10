@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <b-card>
+    <b-card border-variant="success" header="Success" align="center">
       <b-media>
         <template v-slot:aside>
           <b-img blank blank-color="#ccc" width="64" alt="placeholder"></b-img>
