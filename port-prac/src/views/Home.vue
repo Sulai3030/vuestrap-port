@@ -34,6 +34,7 @@
 <style></style>
 
 <script>
+// @vue/component
 // @ is an alias to /src
 export default {};
 </script>

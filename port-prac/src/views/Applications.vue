@@ -11,11 +11,8 @@
         </p>
         <p>Front-End Design</p>
         We built Party Dash with a simple goal in mind: to help party hosts plan
-        parties more easily. easily.
-        <p>
-          Responsibilities: Follow design specs handed down from site owner.
-          Used CSS and HTML to create inviting website
-        </p>
+        parties more easily. Responsibilities: Follow design specs handed down
+        from site owner. Used CSS and HTML to create inviting website
 
         <p>Technologies used: HTML, CSS, Bootstrap</p>
         <div>

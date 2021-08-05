@@ -1,17 +1,33 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/Home">Home |</router-link>
-      <router-link to="/Applications"> Applications</router-link> |
-      <router-link to="/Experience"> Experience</router-link> |
-      <router-link to="/Skills"> Skills</router-link>
-      <router-link to="/Blog"> Blog</router-link>
+      <home to="/Home">Home |</home>
+      <about to="/About">Home |</about>
+      <applications to="/Applications"> Applications</applications> |
+      <experience to="/Experience"> Experience</experience> |
+      <skills to="/Skills"> Skills</skills> |
+      <blog to="/Blog"> Blog</blog>
     </div>
     <router-view />
   </div>
 </template>
 
-<script></script>
+<script>
+import applications from "./components/applications.vue";
+import about from "./components/about.vue";
+import blog from "./views/Blog.vue";
+
+export default {
+  components: {
+    about: about,
+    applications: applications
+  },
+  data() {
+    return {};
+  },
+  methods: {}
+};
+</script>
 
 <style>
 #app {
@@ -40,9 +56,5 @@
 }
 #skills {
   text-align: auto;
-}
-#b-card-text {
-  text-align: center;
-  align-content: center;
 }
 </style>
